@@ -20,5 +20,5 @@ jobs:
       - name: Testing
         uses: ./
         with:
-          is_ci: true
+          is_ci: 'true'
           who-to-greet: test
