@@ -3,8 +3,8 @@ FROM alpine:edge
 
 RUN apk update \
   && apk upgrade \
-  && apk add --no-cache git
-  
+  && apk add --no-cache git jq
+
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
 
