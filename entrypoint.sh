@@ -3,7 +3,7 @@ IMAGE_NAME="$INPUT_GCR_HOST/$GOOGLE_PROJECT_ID/$INPUT_IMAGE_NAME:$INPUT_IMAGE_TA
 
 echo $GCLOUD_SERVICE_KEY 
 env
-
+echo ">> $@"
 echo "Hello $1"
 time=$(date)
 echo "::set-output name=time::$time"
