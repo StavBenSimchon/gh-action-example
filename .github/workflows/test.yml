@@ -21,4 +21,5 @@ jobs:
         uses: ./
         with:
           is_ci: 'true'
+          test_flag: 'true'
           who-to-greet: test

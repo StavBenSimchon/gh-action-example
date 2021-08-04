@@ -9,6 +9,10 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
+  test_flag:  # id of input
+    description: 'testing'
+    required: true
+    default: 'test'
   is_ci:  # id of input
     description: 'is ci'
     required: false
