@@ -9,6 +9,10 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
+  is_ci:  # id of input
+    description: 'is ci'
+    required: false
+    default: ''
 outputs:
   time: # id of output
     description: 'The time we greeted you'
